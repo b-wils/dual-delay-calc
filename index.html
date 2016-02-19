@@ -1,1 +1,56 @@
-Hello World!
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="delay-calc.js"></script>
+</head>
+<body>
+
+Delay 1 length
+
+<form id='delay1length' class='optionSelect' action="">
+  <input type="radio" name="gender" value="4"> Whole<br>
+  <input type="radio" name="gender" value="2"> Half<br>
+  <input type="radio" name="gender" value="1" checked> Quarter <br>
+  <input type="radio" name="gender" value="0.5"> Eighth <br>
+  <input type="radio" name="gender" value="0.25"> Sixteenth
+</form>
+
+Delay 1 modifier
+
+<form id='delay1mod' class='optionSelect' action="">
+  <input type="radio" name="gender" value="1" checked> None<br>
+  <input type="radio" name="gender" value="1.5"> Dotted<br>
+  <input type="radio" name="gender" value="0.666666666"> Triplet
+</form>
+
+Delay 2 length
+
+<form id='delay2length' class='optionSelect' action="">
+  <input type="radio" name="gender" value="4"> Whole<br>
+  <input type="radio" name="gender" value="2"> Half<br>
+  <input type="radio" name="gender" value="1" checked> Quarter <br>
+  <input type="radio" name="gender" value="0.5"> Eighth <br>
+  <input type="radio" name="gender" value="0.25"> Sixteenth
+</form>
+
+Delay 2 modifier
+
+<form id='delay2mod' class='optionSelect' action="">
+  <input type="radio" name="gender" value="1" checked> None<br>
+  <input type="radio" name="gender" value="1.5"> Dotted<br>
+  <input type="radio" name="gender" value="0.666666666"> Triplet
+</form>
+
+BPM <input id='bpmInput' class='optionSelect' type="text" name="bpm" value='100'>
+
+<br>
+<br>
+Delay 2 is <span id='delayratio'>100</span>% of delay 1
+<br>
+<br>
+Delay 1 is <span id='delay1time'>200</span> ms
+<br>
+Delay 2 is <span id='delay2time'>200</span> ms
+</body>
+</html>
+
